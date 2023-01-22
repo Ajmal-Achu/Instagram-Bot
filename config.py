@@ -7,7 +7,7 @@ load_dotenv()
 class Config:
     API_ID = int(os.environ.get("API_ID", "27063178"))
     API_HASH = os.environ.get("API_HASH", "82937245474af5065ab0f857e772aad8")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5896374269:AAGqbagTQn1OJ65Zip_oawZgoC8WHF35ImM") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5910218382:AAHqe2wBnNX6ET0xqoiiniqzwuQwrrUPaZY") 
     USER = os.environ.get("INSTAGRAM_USERNAME", "__ajfx")
     OWNER = os.environ.get("OWNER_ID", "918590508376")
     INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
